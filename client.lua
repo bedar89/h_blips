@@ -1,4 +1,4 @@
-ESX = nil
+PlayerData = {}
 
 local done = false
 
@@ -20,11 +20,11 @@ local blips = {
     -- Example {title="", colour=, id=, x=, y=, z=},
 
     {title="Makelaar", colour=5, id=475, x = -829.52, y = 173.25, z = 70.51},
-    {title="Mcdonald's", colour=5, id=124, x = 270.09, y = -962.66, z = 29.29}
+    {title="Mcdonalds", colour=46, id=383, x = 270.09, y = -962.66, z = 29.29},
   }
       
 local mafiablips = {
-    {title="Mafia", colour=5, id=475, x = -1526.36, y = 90.74, z = 56.55},
+    {title="Mafia", colour=24, id=419, x = -1526.36, y = 90.74, z = 56.55},
 
 }
 
